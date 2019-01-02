@@ -1,0 +1,47 @@
+
+<html>
+<head>
+    <title>threejs - material</title>
+
+    <style>
+    	body{
+    		margin: 0;
+    		overflow: hidden;
+    	}
+        #fps{
+            top: 0;
+            position: fixed;
+            color: white;
+            background-color: black;
+            border: 1px;
+            border-style: solid;
+            border-color: white;
+        }
+        #status{
+            bottom: 0;
+            position: fixed;
+            color: white;
+            background-color: black;
+            border: 1px;
+            border-style: solid;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="fps">FPS</div>
+    <div id="status"></div>
+    
+    <canvas id="myCanvas"></canvas>
+
+    
+    <script src="jquery-3.3.1.min.js"></script>
+    <div id="vert_div"></div>
+    <div id="frag_div"></div>
+    
+    <script src="three.js"></script>
+    <script src="hammer.min.js"></script>
+    
+    <script src="shade_main.js"></script>
+</body>
+</html>
